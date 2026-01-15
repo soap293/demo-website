@@ -2,12 +2,12 @@
 
 Repo for students to practice creating a pull request after forking a repo
 
-Scenario:  Hooray! We're building our course website (https://haseungyeon3.github.io/demo-website/)! Please remember not to share any confidential information on the site.
+Scenario:  Hooray! We're building our course website (https://schafert.github.io/demo-website/)! Please remember not to share any confidential information on the site.
 As part of the project, I'll be collecting your favorite animals and displaying the distribution on the website. To participate, simply add your favorite animal to the index.html file and submit a pull request to me.
 
 1. First, make a fork of the GitHub repo.
 
-    a. Visit URL: [https://github.com/haseungyeon3/demo-website/](https://github.com/haseungyeon3/demo-website/)
+    a. Visit URL: [https://github.com/schafert/demo-website/](https://github.com/haseungyeon3/demo-website/)
 
     b. In the top right corner of the screen, click on the down arrow next to "Fork" and select "Create a new fork." This creates an independent copy of the GitHub repo, which is then saved as a repository under your GitHub account.
 
@@ -20,9 +20,9 @@ As part of the project, I'll be collecting your favorite animals and displaying 
 
     a. `git checkout main` (make sure you are on the main branch)
     
-    b. `git branch dev` (create the new branch-if 'dev' already exists, use different name)
+    b. `git branch lastname-dev` (replacing 'lastname' with your last name; branch names must be unique)
     
-    c. `git checkout dev` (checkout the new branch)
+    c. `git checkout lastname-dev` (checkout the new branch)
 
 6. Edit `index.html` on your local machine in the directory by adding your favorite pet to the file and save it.
    --> under section with id ="projects", enclosed within an 'li' tag 
@@ -47,11 +47,11 @@ As part of the project, I'll be collecting your favorite animals and displaying 
 
     c. Click the green "New Pull Request" button.
 
-    d. On the "Compare changes" page, ensure that the "base repository" is set to `haseungyeon3/demo-website` and the "base" branch is set to `main`.
+    d. On the "Compare changes" page, ensure that the "base repository" is set to `schafert/demo-website` and the "base" branch is set to `main`.
 
     e. In the "head repository" drop-down, select your forked repository.
 
-    f. Choose the `dev` branch (or the branch where you made your changes) as the "compare" branch.
+    f. Choose the `lastname-dev` branch (or the branch where you made your changes) as the "compare" branch.
 
     g. Review the changes and ensure that they are as you intended.
 
@@ -66,5 +66,7 @@ As part of the project, I'll be collecting your favorite animals and displaying 
     l. If there are no conflicts and your changes are approved, the repository owner or collaborators can merge your pull request by clicking the "Merge Pull Request" button.
 
     m. Congratulations, your changes are now part of the original repository!
+
+
 
 
